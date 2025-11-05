@@ -5,6 +5,7 @@
 #define HEIST_SCHEME_CORE_STDLIB_OUTPUT_HPP_
 
 #include "implementation.hpp"
+#include <cstring>
 
 namespace heist {
 

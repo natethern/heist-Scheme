@@ -204,8 +204,6 @@ data primitive_fmt_bwhite8(data_vector&& args){return heist_fmt::generate_ANSI_f
 * PRIVATE INTERFACES: ASCII/WHITESPACE ART PRINTING HELPER FUNCTIONS
 ******************************************************************************/
 
-#include <cstring>
-
 namespace heist_fmt {
   // max strlen, ASCII/Whitespace art alphabet length, # rows per alpha art letter, '\b' alpha art idx
   static constexpr const std::size_t ALPHA_ART_ALPHABET_LENGTH = 74;
